@@ -11,11 +11,75 @@ html,body{
 	flex-direction: column;
 	min-height: 100%;
 }
+
 .main {
 	flex: 1 0 auto;
 }
-.footer{
-    flex: 0 0 auto;
+
+.footer {
+    background-color: #05A88D;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer__left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F1E67D;
+}
+
+.text p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    text-align: right;
+}
+
+.phone {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F1E67D;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.phone:hover {
+    color: #F1E67D;
+}
+
+.address p {
+    font-size: 14px;
+}
+
+.footer__bottom {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 14px;
 }
 
 
